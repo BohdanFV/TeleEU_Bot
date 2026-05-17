@@ -1,0 +1,74 @@
+[
+  {
+    "id": "fem",
+    "name": "Факультет економіки та менеджменту",
+    "denna": "1ulUllE3bMs9bTQ34U7FJwWlD-nE0CTS0fSRIG08wW7E",
+    "zaochna": "10eg9Dflzh5eZKFR_N1M2fxyYbt6HbT2yLJ05DCmLK94"
+  },
+  {
+    "id": "fist",
+    "name": "Факультет інформаційних систем та технологій",
+    "denna": "1Ko6At2E5m_TJsdcfqr82G58dKqnH61BzmwEld4P10MQ",
+    "zaochna": "19H_nY8HJMt5_z72CBQP14uhfhifIPvHhp28hjXnW6EI"
+  },
+  {
+    "id": "fpst",
+    "name": "Факультет психології та соціальних технологій",
+    "denna": "1omKMUbDuEwKb29_0ICrvRaT894vmQnXFr0UBlAY8hQo",
+    "zaochna": "1bV8VrmdOek6VkaHlrcn2PAxeo6osKjQ2iHtneljiQwQ"
+  },
+  {
+    "id": "yurfak",
+    "name": "Юридичний факультет",
+    "denna": "14veFEfRSUZw1rkDfEifYNowSOYvkTZoymSiipM-sbAE",
+    "zaochna": "1l_e_PyVQXp1z03IQQ-VXUVZVAHVVGpPlKwsAGk4kVT8"
+  },
+  {
+    "id": "bizcol",
+    "name": "Фаховий бізнес-коледж",
+    "denna": "1MW7fdukf2_-NSiqke9EdNHU-CwCouvz0fK_jaNtac_I",
+    "zaochna": "1Lm4IgKKdFpLqF2g_ayjxATStaCcmIwnzvcmwe1CgZfg"
+  },
+  {
+    "id": "ek",
+    "name": "Підсумкова атестація",
+    "denna": "16tOSnShZr2KWkPMOxasC38MPmYFHGqzPLCYBFJpwuHo",
+    "zaochna": "17Tc2wQXqHJ8SZKbTpQo6IXA_1NDCXfCW8qKTbmYPaB4"
+  },
+  {
+    "id": "aspirant",
+    "name": "Аспірантура",
+    "denna": "1Bec1ETnuaL6p15NAYKybY5s_TYnb1_MQZTOmhxL6UKQ",
+    "zaochna": "1juB7_ZXwGJuKzu2MwnzD6RMTPJm-iyUzkDWjL97JEvM"
+  },
+  {
+    "id": "cherkasi",
+    "name": "Черкаська філія",
+    "denna": "1wWXwGs_xTwQY2jimE7iXYD5RLy8WrYiJHQlMke5afvY",
+    "zaochna": "1GZExROAjvqcQJ1Hr30E3Z9RzYQRhXUv3x-RZog3saGg"
+  },
+  {
+    "id": "piryatin",
+    "name": "Пирятинська філія",
+    "denna": "1J3FXj-b7FwgetPO28NK5BFmW1g0jdn4fQxXVP8lzsIc",
+    "zaochna": "1OG71Fv5qOqIMm5sC89WAJWUSzkkbYb5MzCsK5w1RMH8"
+  },
+  {
+    "id": "uman",
+    "name": "Уманська філія",
+    "denna": "14_-7mtdjfYnM9mk3ACDmax4xGTc068NWmohJOg5UosY",
+    "zaochna": "1Cu3DvvkbdD6vhYDhqdJNsOe8QpYWIqBjLdOfJXrYhec"
+  },
+  {
+    "id": "riven",
+    "name": "Рівненська філія",
+    "denna": "1ZMozetuOToTCwkSYpjqn8QNsZD3t1Hej_oHL-cNxHOA",
+    "zaochna": "1XaSMmrIqaRTfsRMPIffs6u3rXvl2Hx7XfQTRmTSforA"
+  },
+  {
+    "id": "lviv",
+    "name": "Львівська філія",
+    "denna": "1n3k33vhPE5hlYANR8hOTtw2zKrSjgZuJLlNGa_7mw8s",
+    "zaochna": "166M9DtLPhT6srrS-E0hZnxkxwJLXynXJpEiAXQRiyKY"
+  }
+]

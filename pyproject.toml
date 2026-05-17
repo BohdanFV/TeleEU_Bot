@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "teleeu-bot"
+version = "2.0.0"
+description = "Telegram bot for European University schedules and lesson notifications."
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["telegram-bot", "schedule", "google-sheets", "sqlite", "python"]
+requires-python = ">=3.11"
+authors = [{ name = "Bohdan Fesenko" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Communications :: Chat",
+]
+dependencies = [
+    "pyTelegramBotAPI>=4.16.1",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+teleeu-bot = "teleeu_bot.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

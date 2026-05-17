@@ -1,0 +1,23 @@
+[Unit]
+Description=TeleEU Telegram Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/TeleEU_Bot
+EnvironmentFile=/opt/TeleEU_Bot/.env
+ExecStart=/opt/TeleEU_Bot/.venv/bin/python -m teleeu_bot
+Restart=on-failure
+RestartSec=10
+User=teleeu
+Group=teleeu
+
+# Runtime hardening. Disable a line if it conflicts with your server setup.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ReadWritePaths=/opt/TeleEU_Bot/data /opt/TeleEU_Bot/logs
+
+[Install]
+WantedBy=multi-user.target
